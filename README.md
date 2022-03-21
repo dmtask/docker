@@ -15,6 +15,9 @@
 ## Container löschen
 `docker rm [CONTAINER-ID]`
 
+### [NAME]
+Ist der Name des Dockerfiles. Z.b.: `docker build -t test` -> Der Name wäre dann test
+
 
 # Docker Application update
 - neues Image erstellen
