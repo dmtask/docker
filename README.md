@@ -1,7 +1,7 @@
 # Docker
 
 ## Container Image erstellen
-`docker build -t [NAME] [Verzeichnis mit Dockerfile]` (-t gibt dem Image einen Tag)
+`docker build -t [NAME] [Verzeichnis mit Dockerfile ODER .]` (-t gibt dem Image einen Tag)
 
 ## Container starten
 `docker run -dp 3000:3000 [NAME]` (-d detached Mode, läuft im Hintergrund. -p Port Angaben, HOSTPORT:CONTAINERPORT)
