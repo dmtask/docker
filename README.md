@@ -1,5 +1,8 @@
 # Docker
 
+Allgemein sind Docker in Container, Builds und Images unterteilt. Ein Image ist eine Beschreibung einer gesamten Anwendung, die sich in Container und Builds unterteilt. Ein Container beschreibt dabei eine konkrete Anwendung (z.B. Postgres). Ein Build ist ein Versionsstand für einen Container.
+
+
 ## Container Image erstellen
 `docker build -t [NAME] [Verzeichnis mit Dockerfile ODER .]` (-t gibt dem Image einen Tag)
 
