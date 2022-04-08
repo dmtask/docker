@@ -15,8 +15,9 @@ Stoppt nur den entsprechenden Container
 ## docker-compose build
 Erstellt ein neues Build des Container (z.B. für Updates)
 
-## docker-compose exec [Containername oder ID]
+## docker-compose run SERVICENAME BEFEHL(E)
 Damit kann man einen Befehl innerhalb eines bestimmten Containers ausführen
+z.B. `docker-compose run app rake db:migrate`
 
 
 ## Links
