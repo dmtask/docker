@@ -21,7 +21,9 @@ Allgemein sind Docker in Container, Builds und Images unterteilt. Ein Image ist 
 ### [NAME]
 Ist der Name des Dockerfiles. Z.b.: `docker build -t test` -> Der Name wäre dann test
 
-## docker exec -it [CONTAINER ID] /bin/sh
+## Terminal starten
+`docker exec -it [CONTAINER ID] /bin/sh`
+
 Öffnet ein Terminal zu dieser Container ID
 
 
