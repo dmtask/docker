@@ -1,19 +1,24 @@
 # docker-compose
 
-## docker-compose up -d
-Installiert den Container wie im docker-compose und Dockerfile beschrieben. (Achtung, das zerstört potentielle Einstellungen und Datenbanken)
+## Docker Compose Services starten
+`docker-compose up -d`
 
-## docker-compose ps
-Zeigt alle laufenden Container an
+Startet die Services im docker-compose File. `-d` sagt, dass diese im Hintergrund gestartet werden und auch da laufen.
 
-## docker-compose stop
-Stoppt alle laufenden Container
+## Laufende Container anzeigen 
+`docker-compose ps`
 
-### docker-compose stop [ID]
-Stoppt nur den entsprechenden Container
+## Stoppt alle laufenden Container
+`docker-compose stop`
 
-## docker-compose build
-Erstellt ein neues Build des Container (z.B. für Updates)
+### Einen spezielle Container stoppen
+`docker-compose stop [ID]`
+
+## Erstellt ein neues Build des Container (z.B. für Updates) 
+`docker-compose build`
+
+## Ein neues Build erstellen und direkt neu starten
+`docker-compose up -d --build`
 
 ## docker-compose run SERVICENAME BEFEHL(E)
 Damit kann man einen Befehl innerhalb eines bestimmten Containers ausführen
