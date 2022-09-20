@@ -35,6 +35,7 @@ z.B. `docker-compose run app rake db:migrate`
 
 ## Logs anzeigen
 `docker-compose logs [CONTAINER NAME]`
+
 `docker-compose logs -f [CONTAINER NAME]` (-f = follow)
 
 
