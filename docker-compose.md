@@ -24,6 +24,19 @@ Startet die Services im docker-compose File. `-d` sagt, dass diese im Hintergrun
 Damit kann man einen Befehl innerhalb eines bestimmten Containers ausführen
 z.B. `docker-compose run app rake db:migrate`
 
+## Einen Container löschen (Muss gemacht werden, wenn z.B. ein volume dazu gelöscht werden soll)
+`docker-compose rm [CONTAINER NAME]`
+
+## Volume löschen
+`docker volume rm [VOLUME NAME]`
+
+## Alle Volumes runterfahren und löschen (ACHTUNG!)
+`docker-compose down --volumes`
+
+## Logs anzeigen
+`docker-compose logs [CONTAINER NAME]`
+`docker-compose logs -f [CONTAINER NAME]` (-f = follow)
+
 
 ## Links
 - https://docs.docker.com/compose/gettingstarted/
