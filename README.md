@@ -32,7 +32,10 @@ Ist der Name des Dockerfiles. Z.b.: `docker build -t test` -> Der Name wäre dan
 - Container neu starten
 - (Eventuell muss der Container gelöscht werden und neu erstellt werden, weil sich die ID´s geändert haben.)
 
+# Docker Compose
+[docker compose](/docker-compose.md)
+
 
 # Links:
-- https://docs.docker.com/get-started/02_our_app/
-- https://hub.docker.com/
+- [https://docs.docker.com/get-started/02_our_app/](https://docs.docker.com/get-started/02_our_app/)
+- [https://hub.docker.com/](https://hub.docker.com/)
