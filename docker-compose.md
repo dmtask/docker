@@ -40,6 +40,6 @@ z.B. `docker-compose run app rake db:migrate`
 
 
 ## Links
-- https://docs.docker.com/compose/gettingstarted/
-- https://docs.docker.com/compose/reference/
-- https://www.digitalocean.com/community/tutorials/containerizing-a-ruby-on-rails-application-for-development-with-docker-compose-de
+- [https://docs.docker.com/compose/gettingstarted/](https://docs.docker.com/compose/gettingstarted/)
+- [https://docs.docker.com/compose/reference/](https://docs.docker.com/compose/reference/)
+- [https://www.digitalocean.com/community/tutorials/containerizing-a-ruby-on-rails-application-for-development-with-docker-compose-de](https://www.digitalocean.com/community/tutorials/containerizing-a-ruby-on-rails-application-for-development-with-docker-compose-de)
