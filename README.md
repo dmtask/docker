@@ -35,6 +35,9 @@ Ist der Name des Dockerfiles. Z.b.: `docker build -t test` -> Der Name wäre dan
 # Docker Compose
 [docker compose](/docker-compose.md)
 
+# Docker exec Beispiele
+[docker exec](/docker-exec.md)
+
 
 # Links:
 - [https://docs.docker.com/get-started/02_our_app/](https://docs.docker.com/get-started/02_our_app/)
