@@ -10,7 +10,7 @@ Allgemein sind Docker in Container, Builds und Images unterteilt. Ein Image ist 
 `docker run -dp 3000:3000 [NAME]` (-d detached Mode, läuft im Hintergrund. -p Port Angaben, HOSTPORT:CONTAINERPORT)
 
 ## Container ID finden
-`docker ps`
+`docker ps` (Ist in der Tabelle das erste Element.)
 
 ## Container stoppen
 `docker stop [CONTAINER-ID]`
