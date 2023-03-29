@@ -27,6 +27,9 @@ z.B. `docker-compose run app rake db:migrate`
 ## Einen Container löschen (Muss gemacht werden, wenn z.B. ein volume dazu gelöscht werden soll)
 `docker-compose rm [CONTAINER NAME]`
 
+## Volume anschauen
+`docker volume ls`
+
 ## Volume löschen
 `docker volume rm [VOLUME NAME]`
 
